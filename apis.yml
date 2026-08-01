@@ -1,8 +1,29 @@
 aid: radical-numerics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radical-numerics.png
 name: Radical Numerics
-description: 'Radical Numerics is a company surfaced as a portfolio company of obvious-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: economic-health. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Radical Numerics is an AI research lab building what it calls "general
+  biological intelligence" — next-generation AI architectures aimed at biology and
+  science rather than language. It was founded by machine-learning researchers Michael
+  Poli, Stefano Massaroli, Eric Nguyen, and Armin W. Thomas (associated with the Hyena
+  and Evo / Evo 2 genomics model families), with an advisory board including Eric Horvitz,
+  Chris Ré, George Church, and Andrew Weber. The lab focuses on the science of scaling,
+  architecture, and systems: massive context windows scaling toward one billion tokens,
+  generative genomics, biological threat detection, and multimodal biological intelligence.
+  Its first product, Omnii, is an early-access health research preview. The company
+  announced a $50M seed round in June 2026, with backing including Obvious Ventures.
+  As of this profile Radical Numerics publishes no public API, developer portal, or
+  SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/radical-numerics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Economic Health
+- Artificial Intelligence
+- Machine Learning
+- Genomics
+- Biology
+- AI Research Lab
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/radical-numerics-domain-security.yml
 - type: Website
   url: https://radicalnumerics.ai
+- type: About
+  url: https://radicalnumerics.ai/about
+- type: Blog
+  url: https://radicalnumerics.ai/blog
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
