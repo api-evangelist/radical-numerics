@@ -49,7 +49,7 @@ tags:
 - Company
 - Economic Health
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Genomics
 - Biology
 - AI Research Lab
@@ -61,6 +61,7 @@ tags_raw:
 - Genomics
 - Biology
 - AI Research Lab
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
